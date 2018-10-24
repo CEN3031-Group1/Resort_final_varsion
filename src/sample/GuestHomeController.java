@@ -26,6 +26,7 @@ public class GuestHomeController {
       myStage.setTitle("Requests");
       myStage.setScene(new Scene(root1));
       myStage.show();
+      myStage.setResizable(false);
       ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
     }
     catch (Exception e){
@@ -42,6 +43,7 @@ public class GuestHomeController {
       myStage.setTitle("Requests");
       myStage.setScene(new Scene(root1));
       myStage.show();
+      myStage.setResizable(false);
       ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
     }
     catch (Exception e){
@@ -58,6 +60,7 @@ public class GuestHomeController {
       myStage.setTitle("Requests");
       myStage.setScene(new Scene(root1));
       myStage.show();
+      myStage.setResizable(false);
       ((Node)(actionEvent.getSource())).getScene().getWindow().hide();
     }
     catch (Exception e){
